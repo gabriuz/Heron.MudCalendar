@@ -459,7 +459,6 @@ public partial class MudCalendar : MudComponentBase
     /// Method to return the first day of the week based on the current view and parameters set on the component.
     /// </summary>
     /// <returns>DayOfWeek or null</returns>
-    /// <inheritdoc cref="GetFirstDayOfWeekByCalendarView(CalendarView)"/>
     public DayOfWeek? GetFirstDayOfWeekByCalendarView(CalendarView view)
     {
         return view == CalendarView.WorkWeek
